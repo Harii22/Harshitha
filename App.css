@@ -1,0 +1,129 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #a0cbf4;  /* Soft, light background color */
+  color: #333333;  /* Dark gray text for better readability */
+  margin: 0;
+  padding: 0;
+}
+
+.text-gold {
+  color: #FFC107;  /* Gold color for highlights and emphasis */
+}
+
+button {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+input {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Form Inputs */
+input[type="date"], 
+input[type="time"], 
+input[type="number"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="text"] {
+  border: 1px solid #E0E0E0;  /* Light gray borders for inputs */
+  width: 100%;
+  background-color: #0a0101;  /* White background for inputs */
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #6C757D;  /* Soft gray-blue background for the navbar */
+  color: #FFF;  /* White text for readability */
+  padding: 10px;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #FFFFFF;  /* White background for content */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #6C757D;  /* Soft gray-blue footer */
+  color: white;
+}
+
+/* Button Styling */
+button {
+  background-color: #FFC107;  /* Gold background for buttons */
+  color: #FFF;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+button:hover {
+  background-color: #FFA000;  /* Darker gold on hover */
+}
+
+/* Finish Order Page */
+.finish-order-container {
+  text-align: center;
+  background-color: #FFFFFF;  /* White background for the finish page */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+}
+
+.finish-order-container h2 {
+  font-size: 2rem;
+  color: #6C757D;  /* Soft gray text */
+}
+
+.finish-order-container p {
+  font-size: 1.1rem;
+  color: #6C757D;
+}
+
+.finish-order-container .btn {
+  background-color: #0a66cf;  /* Gold button */
+  color: rgb(246, 54, 54);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.finish-order-container .btn:hover {
+  background-color: #2b73d8;
+}
